@@ -22,6 +22,7 @@ for i in range(cou+1):
         one = int(input('Первое число:'))
         d = input('Введи действие:')
         two = int(input('Второе число:'))
+        print(deq(one,d,two))
 
 
 
