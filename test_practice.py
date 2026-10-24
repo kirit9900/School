@@ -1,2 +1,3 @@
-def test_palidrom(strok):
-    return strok[::-1] == strok
+from practice import *
+def test_practice():
+    assert palidrom('Пап') == False
